@@ -19,6 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9108257D-5
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ClassLibrary1", "test\ClassLibrary1\ClassLibrary1.xproj", "{1ED610C2-C0E3-4BC8-897E-2911BA43F25F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{32D1A20F-0BCF-4E59-9AD1-F63D5D13FA20}"
+	ProjectSection(SolutionItems) = preProject
+		RunTests.ps1 = RunTests.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,5 +45,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C00F0395-CA7F-4A6E-B341-B5164ADC551C} = {B85F5A9E-BED7-4C8B-830F-CF5446D9F0D1}
 		{1ED610C2-C0E3-4BC8-897E-2911BA43F25F} = {9108257D-5674-4CD6-97FE-B9A969FC87F7}
+		{32D1A20F-0BCF-4E59-9AD1-F63D5D13FA20} = {D173CA60-FCE6-4544-98F7-951A4095BFE8}
 	EndGlobalSection
 EndGlobal
