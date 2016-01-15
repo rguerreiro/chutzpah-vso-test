@@ -1,0 +1,22 @@
+{
+  "name": "ClassLibrary1",
+  "private": true,
+  "dependencies": {
+    "chai": "3.4.2",
+    "sinon": "1.17.2",
+    "angular": "1.4.8",
+    "angular-mocks": "1.4.8",
+    "angular-resource": "1.4.8",
+    "angular-animate": "1.4.8",
+    "angular-bootstrap": "1.0.3",
+    "ui-router": "0.2.15",
+    "angular-loading-bar": "0.8.0",
+    "datatables": "1.10.10",
+    "datatables-responsive": "1.0.7",
+    "datatables-select": "1.0.1",
+    "angular-datatables": "0.5.2",
+    "angular-auto-value": "2.1.2",
+    "toastr": "2.1.2",
+    "moment": "2.11.1"
+  }
+}

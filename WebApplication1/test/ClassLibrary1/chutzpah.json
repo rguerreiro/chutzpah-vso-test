@@ -1,0 +1,54 @@
+﻿{
+  "Framework": "mocha",
+  "TestHarnessLocationMode": "SettingsFileAdjacent",
+  "RootReferencePathMode": "SettingsFileDirectory",
+  "References": [
+    {
+      "Path": "bower_components/chai/chai.js",
+      "IsTestFrameworkFile": true
+    },
+    {
+      "Path": "bower_components/chai-as-promised/chai-as-promised.js",
+      "IsTestFrameworkFile": true
+    },
+    {
+      "Path": "bower_components/sinon/lib/sinon.js",
+      "IsTestFrameworkFile": true
+    },
+    { "Path": "bower_components/jquery/dist/jquery.js" },
+    { "Path": "bower_components/angular/angular.js" },
+    { "Path": "bower_components/angular-mocks/angular-mocks.js" },
+    { "Path": "bower_components/angular-bootstrap/ui-bootstrap-tpls.js" },
+    { "Path": "bower_components/angular-animate/angular-animate.js" },
+    { "Path": "bower_components/angular-resource/angular-resource.js" },
+    { "Path": "bower_components/ui-router/release/angular-ui-router.js" },
+    { "Path": "bower_components/angular-loading-bar/build/loading-bar.js" },
+    { "Path": "bower_components/toastr/toastr.js" },
+    { "Path": "bower_components/moment/moment.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/app.module.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/blocks/router/router.module.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/blocks/router/routeHelper.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/blocks/confirm/confirm.module.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/blocks/confirm/confirmHelper.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/core/app.config.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/core/app.constants.js" },
+    {
+      "Path": "../../src/WebApplication1/wwwroot/app/core/services",
+      "Includes": [ "*.js" ]
+    },
+    { "Path": "../../src/WebApplication1/wwwroot/app/layout/layout.module.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/layout/layout.config.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/layout/layout.controller.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/dashboard/dashboard.module.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/dashboard/dashboard.config.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/dashboard/dashboard.controller.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/about/about.module.js" },
+    { "Path": "../../src/WebApplication1/wwwroot/app/about/about.config.js" }
+  ],
+  "Tests": [
+    {
+      "Path": "Client",
+      "Includes": [ "*.spec.js" ]
+    }
+  ]
+}

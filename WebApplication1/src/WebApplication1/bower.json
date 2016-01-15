@@ -1,0 +1,19 @@
+{
+  "name": "ASP.NET",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "3.3.5",
+    "font-awesome": "4.4.0",
+    "angular": "1.4.8",
+    "ui-router": "0.2.15",
+    "angular-route": "1.4.8",
+    "angular-resource": "1.4.8",
+    "angular-animate": "1.4.8",
+    "angular-translate": "2.8.0",
+    "angular-loading-bar": "0.8.0",
+    "angular-bootstrap": "1.0.3",
+    "toastr": "2.1.1",
+    "moment": "2.11.0"
+  }
+}

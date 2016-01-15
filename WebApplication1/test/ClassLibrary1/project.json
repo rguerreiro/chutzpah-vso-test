@@ -1,0 +1,24 @@
+﻿{
+  "compilationOptions": {
+    "warningsAsErrors": true
+  },
+
+  "dependencies": {
+    "WebApplication1": "",
+    "xunit": "2.1.0",
+    "xunit.runner.dnx": "2.1.0-rc1-build204",
+    "xunit.runner.visualstudio": "2.1.0",
+    "EntityFramework.InMemory": "7.0.0-rc1-final",
+    "Chutzpah": "4.1.0"
+  },
+
+  "commands": {
+    "test": "xunit.runner.dnx -xml ../../TestResults/xunit.testresults.xml",
+    "test-vso": "xunit.runner.dnx -xml xunit.testresults.xml"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  }
+}
