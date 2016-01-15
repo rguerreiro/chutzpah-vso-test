@@ -21,7 +21,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ClassLibrary1", "test\Class
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{32D1A20F-0BCF-4E59-9AD1-F63D5D13FA20}"
 	ProjectSection(SolutionItems) = preProject
-		RunTests.ps1 = RunTests.ps1
+		Scripts\RunTests.ps1 = Scripts\RunTests.ps1
 	EndProjectSection
 EndProject
 Global
